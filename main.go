@@ -5,9 +5,16 @@ import (
 	"data_collection/utils"
 )
 
-// var addr = flag.String("addr", "fstream.binance.com/stream?streams=btcusdt@depth10/ethusdt@depth10@500ms", "http service address")
+func init() {
+
+}
 
 func main() {
 	db := database.GetConn()
-	utils.Subscribe("deribit", db)
+
+	go utils.Subscribe("deribit", db)
+	go utils.Subscribe("binance", db)
+
+	for {
+	}
 }

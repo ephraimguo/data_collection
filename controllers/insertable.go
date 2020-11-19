@@ -6,4 +6,5 @@ type Insertable interface {
 	GetPair() string
 	GetBidPrice() float64
 	GetAskPrice() float64
+	ToString() string
 }

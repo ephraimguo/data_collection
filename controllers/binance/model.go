@@ -1,6 +1,9 @@
 package binance
 
-import "data_collection/controllers"
+import (
+	"data_collection/controllers"
+	"fmt"
+)
 
 type Resp struct {
 	Quote Quote `json:"data"`
@@ -35,4 +38,9 @@ func (q Quote) GetBidPrice() float64 {
 
 func (q Quote) GetAskPrice() float64 {
 	return q.AskPrice
+}
+
+func (q Quote) ToString() string {
+	return fmt.Sprintf("TimeStamp: %v, Platform: %v, Pair: %v, BidPrice: %v, AskPrice: %v",
+		q.GetTimeStamp(), q.GetPlatform(), q.GetPair(), q.GetBidPrice(), q.GetAskPrice())
 }

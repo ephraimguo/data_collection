@@ -1,6 +1,8 @@
 package deribit
 
-import "encoding/json"
+import (
+	"encoding/json"
+)
 
 func Parse(info []byte) *Resp {
 	var resp Resp
@@ -12,6 +14,5 @@ func Parse(info []byte) *Resp {
 	if resp.Params.Quote.Timestamp == 0 {
 		return nil
 	}
-
 	return &resp
 }

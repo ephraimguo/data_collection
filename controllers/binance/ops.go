@@ -45,17 +45,3 @@ func getMin(arr [][]string) float64 {
 
 	return min
 }
-
-//func ParseQuote (info []byte) *binance.Quote{
-//	var quote *binance.Quote
-//	json.Unmarshal(info, quote)
-//
-//	return quote
-//}
-
-//func ParseFundingRate (info []byte) *binance.FundingRate {
-//	var funding_rate *binance.FundingRate
-//	json.Unmarshal(info, funding_rate)
-//
-//	return funding_rate
-//}

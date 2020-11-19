@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe9ee335-9418-4384-91e0-4b10635d6470" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/deribit/model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/deribit/ops.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/insertable.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/constant.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/websocketconnector.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/deribit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_collection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_collection.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cotrollers/binance.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/binance/ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/binance/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/binance/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/binance/ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/binance/ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/deribit/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/deribit/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/deribit/ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/deribit/ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/insertable.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/insertable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/controller.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/binance/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/binance/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/binance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/websocketconnector.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/websocketconnector.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +77,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/controllers/deribit" />
       <recent name="$PROJECT_DIR$/controllers/binance" />
       <recent name="$PROJECT_DIR$/model/binance" />
@@ -95,7 +99,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -113,7 +117,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -131,30 +135,38 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1842" height="31" key="GridCell.Tab.0.bottom" timestamp="1605782136973">
-      <screen x="0" y="23" width="1920" height="1029" />
+    <state x="101" y="123" width="2359" height="1181" key="DiffContextDialog" timestamp="1605799618766">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2059" height="483" key="GridCell.Tab.0.bottom/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605751187292" />
+    <state x="101" y="123" width="2359" height="1181" key="DiffContextDialog/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605799618766" />
+    <state width="886" height="1254" key="GridCell.Tab.0.bottom" timestamp="1605795525353">
+      <screen x="0" y="23" width="2560" height="1382" />
+    </state>
+    <state width="886" height="1254" key="GridCell.Tab.0.bottom/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605795525353" />
     <state width="1842" height="31" key="GridCell.Tab.0.bottom/1920.90.1440.877/0.23.1920.1029@0.23.1920.1029" timestamp="1605782136973" />
-    <state width="1842" height="31" key="GridCell.Tab.0.center" timestamp="1605782136972">
-      <screen x="0" y="23" width="1920" height="1029" />
+    <state width="886" height="1254" key="GridCell.Tab.0.center" timestamp="1605795525353">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2059" height="483" key="GridCell.Tab.0.center/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605751187291" />
+    <state width="886" height="1254" key="GridCell.Tab.0.center/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605795525353" />
     <state width="1842" height="31" key="GridCell.Tab.0.center/1920.90.1440.877/0.23.1920.1029@0.23.1920.1029" timestamp="1605782136972" />
-    <state width="1842" height="31" key="GridCell.Tab.0.left" timestamp="1605782136972">
-      <screen x="0" y="23" width="1920" height="1029" />
+    <state width="886" height="1254" key="GridCell.Tab.0.left" timestamp="1605795525352">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2059" height="483" key="GridCell.Tab.0.left/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605751187290" />
+    <state width="886" height="1254" key="GridCell.Tab.0.left/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605795525352" />
     <state width="1842" height="31" key="GridCell.Tab.0.left/1920.90.1440.877/0.23.1920.1029@0.23.1920.1029" timestamp="1605782136972" />
-    <state width="1842" height="31" key="GridCell.Tab.0.right" timestamp="1605782136972">
-      <screen x="0" y="23" width="1920" height="1029" />
+    <state width="886" height="1254" key="GridCell.Tab.0.right" timestamp="1605795525353">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2059" height="483" key="GridCell.Tab.0.right/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605751187292" />
+    <state width="886" height="1254" key="GridCell.Tab.0.right/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605795525353" />
     <state width="1842" height="31" key="GridCell.Tab.0.right/1920.90.1440.877/0.23.1920.1029@0.23.1920.1029" timestamp="1605782136972" />
     <state x="427" y="226" key="SettingsEditor" timestamp="1605772395333">
       <screen x="0" y="23" width="1920" height="1029" />
     </state>
     <state x="427" y="226" key="SettingsEditor/1920.90.1440.877/0.23.1920.1029@0.23.1920.1029" timestamp="1605772395333" />
+    <state x="979" y="349" width="602" height="729" key="find.popup" timestamp="1605803128622">
+      <screen x="0" y="23" width="2560" height="1382" />
+    </state>
+    <state x="979" y="349" width="602" height="729" key="find.popup/-1920.164.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1605803128622" />
     <state x="665" y="339" width="670" height="676" key="search.everywhere.popup" timestamp="1605719163299">
       <screen x="0" y="23" width="2560" height="1382" />
     </state>
